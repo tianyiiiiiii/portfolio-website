@@ -4,8 +4,7 @@ import React from "react";
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="h-screen flex flex-col justify-center items-center text-center px-6">
-      {/* <div className="mb-56"></div> */}
+    <section id="experience" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
       <h1 className="text-4xl mb-6 font-bold text-gray-900 dark:text-white">My Experience</h1>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         <li className="mb-10 ms-4">

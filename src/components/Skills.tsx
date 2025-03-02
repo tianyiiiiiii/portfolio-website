@@ -29,9 +29,8 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="h-screen flex flex-col justify-center items-center text-center px-6"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-6"
     >
-      <div className="mb-10"></div>
       <h1 className="text-4xl mb-6 font-bold text-gray-900 dark:text-white">My Skills</h1>
 
       <div className="w-full max-w-5xl space-y-8">

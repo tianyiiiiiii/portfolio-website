@@ -7,8 +7,7 @@ import { motion } from "framer-motion";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="h-screen flex flex-col justify-center items-center text-center px-6">
-      <div className="mb-56"></div>
+    <section id="contact" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
       <h1 className="text-4xl mb-4 font-bold text-gray-900 dark:text-white">Contact Me</h1>
       
       <motion.div
@@ -52,7 +51,6 @@ const ContactSection = () => {
         <source src="/dance.MP4" type="video/mp4" />
       </motion.video>
 
-      <div className="mb-56"></div>
     </section>
   );
 };

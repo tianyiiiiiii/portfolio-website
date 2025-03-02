@@ -10,8 +10,7 @@ import Link from "next/link";
 
 const HomeSection = () => {
   return (
-    <section id="home" className="h-screen flex flex-col justify-center items-center text-center px-6">
-      <div className="mb-36"></div>
+    <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
       <Image
         src="/pfp.JPG"
         alt="Profile Picture"
