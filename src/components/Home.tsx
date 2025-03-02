@@ -15,8 +15,8 @@ const HomeSection = () => {
       <Image
         src="/pfp.JPG"
         alt="Profile Picture"
-        width={600}
-        height={600}
+        width={500}
+        height={500}
         className="rounded-2xl m-6 mt-6"
       />
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
