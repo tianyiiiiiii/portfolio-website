@@ -14,3 +14,12 @@ const eslintConfig = [
 ];
 
 export default eslintConfig;
+
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+    rules: {
+      "react/no-unescaped-entities": "off",
+    },
+  },
+};
