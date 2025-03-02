@@ -49,7 +49,7 @@ const ContactSection = () => {
         loop
         muted
       >
-        <source src="/dance.mp4" type="video/mp4" />
+        <source src="/dance.MP4" type="video/mp4" />
       </motion.video>
 
       <div className="mb-56"></div>

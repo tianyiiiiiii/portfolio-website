@@ -11,14 +11,14 @@ const AboutSection = () => {
       <h1 className="text-4xl mb-4 font-bold text-gray-900 dark:text-white">About Me</h1>
       <div className="flex">
         <Image
-          src="/snowboard.png"
+          src="/snowboard.PNG"
           alt="Snowboarding"
           width={400}
           height={400}
           className="rounded-2xl m-4"
         />
         <Image
-          src="/ski.jpg"
+          src="/ski.JPG"
           alt="Skiing"
           width={400}
           height={400}

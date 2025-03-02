@@ -13,7 +13,7 @@ const HomeSection = () => {
     <section id="home" className="h-screen flex flex-col justify-center items-center text-center px-6">
       <div className="mb-36"></div>
       <Image
-        src="/pfp.jpg"
+        src="/pfp.JPG"
         alt="Profile Picture"
         width={600}
         height={600}
@@ -45,8 +45,6 @@ const HomeSection = () => {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-
-
         <a
           className="group bg-gray-200 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/resume.pdf"
